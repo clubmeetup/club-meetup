@@ -1,5 +1,3 @@
-# Club Meetup
-
 ## Table of contents
 
 * [Overview](#overview)
