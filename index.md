@@ -3,7 +3,7 @@
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
+* [App Updates](#updates)
 * [Developer Guide](#developer-guide)
 * [Team](#team)
 * [Milestones](#milestones)
@@ -72,6 +72,10 @@ The Filter page provides the ability to query the database and display the resul
 
 ![](images/filter-page.png)
 
+## Updates
+<img src="Update Club List.png" alt="Description of image">
+
+Students are able to browse the sorted list of clubs. Next update will include a filter option.
 
 ## Developer Guide
 
