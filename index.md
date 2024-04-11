@@ -25,15 +25,11 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ### Index pages (Clubs, Description, Contacts)
 
-Club Up Up provides three public pages that present the contents of the database organized in various ways.
+Club Up provides a list of available club activities to join at UH Manoa as well as points of contact students can reach out to for more information.
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
+## UH Manoa Clubs/Activities
 
-## Club List Webpage
-
-Check out the [Club List Webpage](https://clubmeetup.github.io/clublist/)
-
-![](images/profiles-page.png)
+Check out the [list of clubs](https://clubmeetup.github.io/clublist/) available at UH Manoa
 
 The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
 
