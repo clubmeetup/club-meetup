@@ -84,7 +84,7 @@ First, [install Meteor](https://www.meteor.com/install).
 
 Second, visit the [Club Up application github page](https://github.com/), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
-Third, cd into the bowfolios/app directory and install libraries with:
+Third, cd into the Club Up/app directory and install libraries with:
 
 ```
 $ meteor npm install
@@ -100,7 +100,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+Club Up is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
 
 
 ## Initialization
@@ -116,3 +116,7 @@ The settings.development.json file contains a field called "loadAssetsFile". It 
 ## Team
 
 Club Up is designed, implemented, and maintained by [Kendrick Gonzales](https://kendrick-g.github.io/), [Justin Corpuz](https://justkcorp.github.io/), [Yirui Wang](https://yiruiwang0518.github.io/), [Rocky Huang](https://rucny.github.io/), [Jason Nguyen](https://jknguyen2003.github.io/)
+
+## Team Contract
+
+[Club Up Team Agreement](https://clubmeetup.github.io/Contract/)
