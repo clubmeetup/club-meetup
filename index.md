@@ -2,7 +2,6 @@
 
 * [Overview](#overview)
 * [Deployment](#deployment)
-* [User Guide](#user-guide)
 * [App Updates](#updates)
 * [Team](#team)
 * [Milestones](#milestones)
@@ -16,28 +15,31 @@ The solution: The Club Meetup application will provide a centralized directory f
 ## Deployment
 Club Up app can be reached [here](http://147.182.236.131/)
 
-## User Guide
-
-This section provides a walkthrough of the Club Up user interface and its capabilities.
-
-### Landing Page
-
-The landing page is presented to users when they visit the top-level URL to the site.
-
-### Index pages (Clubs, Description, Contacts)
-
-Club Up provides a list of available club activities to join at UH Manoa as well as points of contact students can reach out to for more information.
+## Landing Page
+<img src="club landing page.png" alt="Description of image">
 
 ## UH Manoa Clubs/Activities
 
+Club Up provides a list of available club activities to join at UH Manoa as well as points of contact students can reach out to for more information.
+
 Check out the [list of clubs](https://clubmeetup.github.io/clublist/) available at UH Manoa
 
-### Home page
+# Updates
 
-## Updates
+### Club List
 <img src="Update Club List.png" alt="Description of image">
 
 Students are able to browse the sorted list of clubs. Next update will include a filter option.
+
+### App Feature Requests
+<img src="App feature request.png" alt="Description of image">
+
+Students are able to put in requests for possible convenient updates to the app.
+
+### Interest Filter
+<img src="interest filter.png" alt="Description of image">
+
+Students will be given a specific list of clubs/activities based on their interests.
 
 ## Team
 
