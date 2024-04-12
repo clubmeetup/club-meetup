@@ -20,6 +20,21 @@ Club Up app can be reached [here](http://147.182.236.131/)
 
 Students will be able to login and browse through the clubs/activities available at UH Manoa. They will be able to have a tailored list of clubs/activities based on their interests. Students will be able to be notified of any updates made to the list of clubs available at UH Manoa as well as if any clubs they have joined have made any recent updates.
 
+# Club List Page
+<img src="project page.png" alt="Description of image">
+
+Currently says Project page but, will be updated to be the Club List page
+
+# Student Profile Page
+<img src="student profile page.png" alt="Description of image">
+
+Students can create their profile after signing onto the app.
+
+# Filtered Club Page
+<img src="interest club filtered page.png" alt="Description of image">
+
+Students will be given a tailored list of clubs based on their interests.
+
 ## UH Manoa Clubs Page
 
 Club Up provides a list of available club activities to join at UH Manoa as well as points of contact students can reach out to for more information.
