@@ -15,6 +15,7 @@ The problem: UH Manoa has over 200 Registered Independent Organizations, plus ma
 The solution: The Club Meetup application will provide a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos.
 
 ## Deployment
+Club Up app can be reached [here](http://147.182.236.131/)
 
 ## User Guide
 
@@ -33,15 +34,6 @@ Club Up provides a list of available club activities to join at UH Manoa as well
 ## UH Manoa Clubs/Activities
 
 Check out the [list of clubs](https://clubmeetup.github.io/clublist/) available at UH Manoa
-
-The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
-
-![](images/projects-page.png)
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-![](images/interests-page.png)
-
 
 ### Sign in and sign up
 
@@ -103,18 +95,12 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Club Up is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+Club Up is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). 
 
 
 ## Initialization
 
 The [config](https://github.com/bowfolios/bowfolios/tree/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/main/config/settings.development.json).
-
-This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
-
-The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
-
-
 
 ## Team
 
