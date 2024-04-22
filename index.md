@@ -13,7 +13,7 @@ The problem: UH Manoa has over 200 Registered Independent Organizations, plus ma
 The solution: The Club Up application will provide a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos.
 
 ## Deployment
-Club Up app can be reached [here](http://147.182.236.131/)
+Club Up app can be reached [here](https://clubup.vip/)
 
 ## Landing Page
 <img src="club landing page.png" alt="Description of image">
