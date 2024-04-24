@@ -1,114 +1,120 @@
+# Club Up
+
 [![pages-build-deployment](https://github.com/clubmeetup/clubmeetup.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/clubmeetup/clubmeetup.github.io/actions/workflows/pages/pages-build-deployment)
+
 ## Table of contents
 
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
-* [App Updates](#updates)
 * [Team](#team)
 * [Milestones](#milestones)
 
 ## Overview
 
-The problem: UH Manoa has over 200 Registered Independent Organizations, plus many more that do not have this “official” status but are nonetheless active organizations. Unfortunately, there is no easy way for students to learn (a) what student clubs (both registered and unregistered) exist, what they do, and how to get further involved.
+*The problem*: UH Manoa has over 200 [Registered Independent Organizations](https://manoa.hawaii.edu/studentlife/involvement/registered-independent-organizations/), plus many more that do not have this “official” status but are nonetheless active organizations. Unfortunately, there is no easy way for students to learn (a) what student clubs (both registered and unregistered) exist, what they do, and how to get further involved.
 
-The solution: The Club Up application will provide a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos.
+*The solution*: The Club Up application will provide a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos.
+
+Club Up is a web application that provides pages to view and (in some cases) modify profiles, clubs, and interests. It utilizes several technological tools useful to ICS software engineering students, such as:
+
+* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
+* [React](https://reactjs.org/) for component-based UI implementation and routing.
+* [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
+* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
+
+The systems also comes with code that makes use of different design concepts, such as:
+
+* Three primary collections (Profiles, Clubs, Interests) as well as "join" Collections that implement relationships between them.
+* Top-level index pages (Profiles, Clubs, and Interests) that show how to manipulate these collections in different ways.
+* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
+* Authorization examples: certain pages are public (Profiles, Clubs, Interests), while other pages require login.
 
 ## Deployment
-Club Up app can be reached [here](https://clubup.vip/)
 
-## Landing Page
-<img src="club landing page.png" alt="Description of image">
+Club Up app can be reached [here](https://clubup.vip/).
 
-Students will be able to login and browse through the clubs/activities available at UH Manoa. They will be able to have a tailored list of clubs/activities based on their interests. Students will be able to be notified of any updates made to the list of clubs available at UH Manoa as well as if any clubs they have joined have made any recent updates.
+## User Guide
 
-# Club List Page
-<img src="New Club Page.png" alt="Description of image">
+This section gives a guide of the Club Up ui and its functions.
 
-Currently says Project page but, will be updated to be the Club List page
+### Landing Page
 
-# Student Profile Page
-<img src="new profile page.png" alt="Description of image">
+The landing page is the first page that is shown to users when they visit the top-level URL to the site.
 
-Students can create their profile after signing onto the app.
+![](images/landing-page.png)
 
-# Interests Filter Page
-<img src="new interests page.png" alt="Description of image">
+### Index pages (Clubs, Interests)
 
-Students will be given a tailored list of clubs based on their interests.
+Club Up contains two public pages that show the contents of the database organized in multiple ways.
 
-## UH Manoa Clubs Page
+The Clubs page shows all the currently defined Clubs and their associated Interests:
 
-Club Up provides a list of available club activities to join at UH Manoa as well as points of contact students can reach out to for more information.
+![](images/clubs-page.png)
 
-Check out the [list of clubs](https://clubmeetup.github.io/clublist/) available at UH Manoa
+The Interests page shows all the currently defined Interests, and their associated Clubs:
 
-# User Guide
-![login.png](login.png)
-Login to your account or sign up if you haven't already.
+![](images/interests-page.png)
 
-![profiles.png](profiles.png)
-You'll be able to view your profile to see what clubs you're currently in, view any club updates, as well as change interest preferences.
+### Sign in and sign up
 
-![list of clubs.png](list%20of%20clubs.png)
-A list of clubs available at UH Manoa for students to browse
+Click on the "Login" button in the top right corner of the navbar, then select "Sign in" to go to the following page and log in. You must have been previously registered with the system to be able to use this option:
 
-![interests.png](interests.png)
-Enter your interests to tailor the list of clubs available for you to choose from
+![](images/signin-page.png)
 
-![recommendation.png](recommendation.png)
-We have a Features Request page which allows students to submit any recommendations they feel would benefit all users of the application.
+On the other hand, you can select "Sign up" to go to the following page and register as a new user:
 
-# Developer Guide
-1. Setup Instructions: Clone the repository and install any dependencies. Navigate to the project directory and run npm install if you are using Node.js.
+![](images/signup-page.png)
+
+### Home page
+
+After successfully logging in, you are led to the user home page, which is a form where you can complete and/or update your personal profile:
+
+![](images/home-page.png)
+
+### Add Club page
+
+Once you have logged in, you are able to define new clubs with the Add Club page:
+
+![](images/add-club-page.png)
+
+### Filter page
+
+This is a mockup of the Filter page. Once it has been implemented, it will allow you to query the database and display the results in the page. In this instance, the query will show all of the Clubs that match one or more of the chosen Interest(s).
+
+![](images/filter-page.png)
+
+### Feature Request
+
+This is a mockup of the Feature Request form. Once it has been implemented, if you have any features that you would like to see in this application, please take the time to fill out our form and let us know what you think.
+
+![](images/feature-request-page.png)
+
+## Developer Guide
+
+This section gives instructions to developers who want to use this code as a basis for their own projects.
+
+1. Setup Instructions: Visit the [Club Up application github page](https://github.com/clubmeetup/club-meetup-app/) to clone the repository and install any dependencies. Navigate to the project directory and run npm install if you are using Node.js.
 
 
-2. Local Development: To run the server, execute npm start to launch the site locally. Ensure your development server supports live reloading to see changes in real time.
+2. Local Development: To run the server, execute meteor npm run start to launch the site locally. Ensure your development server supports live reloading to see changes in real time.
 
 
 3. Code Structure: For directory layout,
-   /src contains all the source code.
    /public are static files like images and fonts.
    /components are reusable UI components.
    /pages are webpage files.
    Main files describe key files like index.html, app.js, etc.
 
 
-4. Contribution Guidelines: Follow Coding Standards such as following specific style guides (e.g., ESLint for JavaScript). For Pull Requests, fork the repository, make changes, and submit a pull request. When there are issues reporting, report bugs or suggest enhancements via GitHub Issues.
-
-
-5. Deployment: To build the project, run npm run build to create a production-ready build. For deploying, use services like GitHub Pages for deployment. Follow their specific instructions for deployment settings.
-
-# Updates
-
-### Club List Page
-<img src="Update Club List.png" alt="Description of image">
-
-Students are able to browse the sorted list of clubs. Next update will include a filter option.
-
-### App Feature Requests Page
-<img src="App feature request.png" alt="Description of image">
-
-Students are able to put in requests for possible convenient updates to the app.
-
-### Interest Filter Page
-<img src="interest filter.png" alt="Description of image">
-
-Students will be given a specific list of clubs/activities based on their interests.
-
-### Adding Clubs
-<img src="Adding a club.png" alt="Description of image">
-
-Students will be able to add clubs to the app; providing information for the club.
+4. Contribution Guidelines: Follow Coding Standards such as following specific style guides (e.g., ESLint for JavaScript). For Pull Requests, fork the repository, make changes, and submit a pull request. Use Issue Driven Project Management practices.
 
 ## Team
 
-Club Up is designed, implemented, and maintained by [Kendrick Gonzales](https://kendrick-g.github.io/), [Justin Corpuz](https://justkcorp.github.io/), [Yirui Wang](https://yiruiwang0518.github.io/), [Rocky Huang](https://rucny.github.io/), [Jason Nguyen](https://jknguyen2003.github.io/)
+[Club Up](https://github.com/clubmeetup) is designed, implemented, and maintained by [Kendrick Gonzales](https://kendrick-g.github.io/), [Justin Corpuz](https://justkcorp.github.io/), [Yirui Wang](https://yiruiwang0518.github.io/), [Rocky Huang](https://rucny.github.io/), and [Jason Nguyen](https://jknguyen2003.github.io/).
 
-## Team Contract
-
-[Club Up Team Agreement](https://clubmeetup.github.io/Contract/)
+[Club Up Team Contract](https://clubmeetup.github.io/Contract/)
 
 ## Milestones
 
@@ -116,4 +122,4 @@ Club Up is designed, implemented, and maintained by [Kendrick Gonzales](https://
 
 [Milestone 2](https://github.com/orgs/clubmeetup/projects/2/views/1)
 
-[Milestone 3](https://github.com/orgs/clubmeetup/projects/3/views/1)
+[Milestone 3](https://github.com/orgs/clubmeetup/projects/4)
