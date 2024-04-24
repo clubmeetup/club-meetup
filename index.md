@@ -115,3 +115,5 @@ Club Up is designed, implemented, and maintained by [Kendrick Gonzales](https://
 [Milestone 1](https://github.com/orgs/clubmeetup/projects/1)
 
 [Milestone 2](https://github.com/orgs/clubmeetup/projects/2/views/1)
+
+[Milestone 3](https://github.com/orgs/clubmeetup/projects/3/views/1)
