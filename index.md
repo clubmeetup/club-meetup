@@ -41,6 +41,26 @@ Club Up provides a list of available club activities to join at UH Manoa as well
 
 Check out the [list of clubs](https://clubmeetup.github.io/clublist/) available at UH Manoa
 
+# Developer Guide
+1. Setup Instructions: Clone the repository and install any dependencies. Navigate to the project directory and run npm install if you are using Node.js.
+
+
+2. Local Development: To run the server, execute npm start to launch the site locally. Ensure your development server supports live reloading to see changes in real time.
+
+
+3. Code Structure: For directory layout,
+   /src contains all the source code.
+   /public are static files like images and fonts.
+   /components are reusable UI components.
+   /pages are webpage files.
+   Main files describe key files like index.html, app.js, etc.
+
+
+4. Contribution Guidelines: Follow Coding Standards such as following specific style guides (e.g., ESLint for JavaScript). For Pull Requests, fork the repository, make changes, and submit a pull request. When there are issues reporting, report bugs or suggest enhancements via GitHub Issues.
+
+
+5. Deployment: To build the project, run npm run build to create a production-ready build. For deploying, use services like GitHub Pages for deployment. Follow their specific instructions for deployment settings.
+
 # Updates
 
 ### Club List Page
