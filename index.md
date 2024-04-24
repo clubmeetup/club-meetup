@@ -42,6 +42,22 @@ Club Up provides a list of available club activities to join at UH Manoa as well
 
 Check out the [list of clubs](https://clubmeetup.github.io/clublist/) available at UH Manoa
 
+# User Guide
+![login.png](login.png)
+Login to your account or sign up if you haven't already.
+
+![profiles.png](profiles.png)
+You'll be able to view your profile to see what clubs you're currently in, view any club updates, as well as change interest preferences.
+
+![list of clubs.png](list%20of%20clubs.png)
+A list of clubs available at UH Manoa for students to browse
+
+![interests.png](interests.png)
+Enter your interests to tailor the list of clubs available for you to choose from
+
+![recommendation.png](recommendation.png)
+We have a Features Request page which allows students to submit any recommendations they feel would benefit all users of the application.
+
 # Developer Guide
 1. Setup Instructions: Clone the repository and install any dependencies. Navigate to the project directory and run npm install if you are using Node.js.
 
