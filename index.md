@@ -1,3 +1,4 @@
+[![pages-build-deployment](https://github.com/clubmeetup/clubmeetup.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/clubmeetup/clubmeetup.github.io/actions/workflows/pages/pages-build-deployment)
 ## Table of contents
 
 * [Overview](#overview)
