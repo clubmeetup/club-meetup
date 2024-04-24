@@ -3,6 +3,8 @@
 
 * [Overview](#overview)
 * [Deployment](#deployment)
+* [User Guide](#user-guide)
+* [Developer Guide](#developer-guide)
 * [App Updates](#updates)
 * [Team](#team)
 * [Milestones](#milestones)
