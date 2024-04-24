@@ -1,3 +1,5 @@
+[![.github/workflows/badge.yml](https://github.com/clubmeetup/clubmeetup.github.io/actions/workflows/badge.yml/badge.svg)](https://github.com/clubmeetup/clubmeetup.github.io/actions/workflows/badge.yml)
+
 ## Table of contents
 
 * [Overview](#overview)
